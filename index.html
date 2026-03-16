@@ -3,23 +3,176 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hunter Hagedorn</title>
+  <title>Hunter Hagedorn | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio website for Hunter Hagedorn — software, AI, creative technology, and media projects."
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="container">
-    <h1>Hunter Hagedorn</h1>
-    <p>Computer Science student, engineer, and creative technologist.</p>
-
-    <p>
-      I’m interested in software engineering, AI, music, and creative projects.
-    </p>
-
-    <div class="links">
-      <a href="mailto:hagedornhunter@gmail.com">Email</a>
-      <a href="https://github.com/blind05" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/hunterhagedorn" target="_blank">LinkedIn</a>
+  <header class="site-header">
+    <div class="wrapper nav">
+      <a href="#" class="logo">HH</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrapper hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Software • AI • Creative Technology</p>
+          <h1>Hunter Hagedorn</h1>
+          <p class="hero-subtitle">
+            Computer Science student at the University of Minnesota building
+            software, AI systems, and creative projects across tech, music, and media.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="assets/resume.pdf" target="_blank">Resume</a>
+          </div>
+
+          <ul class="quick-links">
+            <li><a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/YOURLINKEDIN" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:youremail@example.com">Email</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <p class="card-label">Currently focused on</p>
+          <ul>
+            <li>AI + cloud engineering</li>
+            <li>Software projects and systems thinking</li>
+            <li>Creative/media work and web design</li>
+            <li>Music, audio, and culture-based projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrapper narrow">
+        <p class="section-label">About</p>
+        <h2>A little about me</h2>
+        <p>
+          I’m a developer and creative builder interested in software engineering,
+          AI, automation, design, and culture. I like making things that are both
+          useful and interesting — from technical systems and apps to creative projects
+          tied to music, media, and independent culture.
+        </p>
+        <p>
+          Right now I’m focused on growing as an engineer, shipping stronger projects,
+          and building a portfolio that reflects both my technical skills and creative perspective.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="wrapper">
+        <p class="section-label">Projects</p>
+        <h2>Selected work</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>AIOps Event Bus</h3>
+            <p>
+              Built transport-agnostic event bus architecture and adapters for local
+              and cloud messaging workflows.
+            </p>
+            <p class="tagline">Python • Event-driven systems • Cloud</p>
+            <div class="card-links">
+              <a href="https://github.com/YOURUSERNAME/REPO1" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Drone Simulation</h3>
+            <p>
+              Simulation project built in C++ using object-oriented design and patterns
+              like factory, strategy, observer, and decorator.
+            </p>
+            <p class="tagline">C++ • OOP • Design Patterns</p>
+            <div class="card-links">
+              <a href="https://github.com/YOURUSERNAME/REPO2" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Creative Collective Site Concept</h3>
+            <p>
+              Designed and built an early web concept for a creative collective centered
+              around music, video, skate culture, and independent media.
+            </p>
+            <p class="tagline">HTML • CSS • Branding • Creative Direction</p>
+            <div class="card-links">
+              <a href="https://github.com/YOURUSERNAME/REPO3" target="_blank">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="wrapper">
+        <p class="section-label">Experience</p>
+        <h2>What I do</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>AI / Cloud Engineering</h3>
+            <p>
+              Working on technical systems involving AI workflows, cloud tooling, and engineering projects.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Software Development</h3>
+            <p>
+              Building projects through coursework, internships, and independent work with a focus on practical engineering.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Creative + Media Work</h3>
+            <p>
+              Involved in music, audio engineering, radio, writing, and creative community-based projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="wrapper narrow contact-box">
+        <p class="section-label">Contact</p>
+        <h2>Let’s connect</h2>
+        <p>
+          I’m always open to talking about software, AI, creative work, music/media projects,
+          and new opportunities.
+        </p>
+
+        <div class="contact-links">
+          <a class="button primary" href="mailto:youremail@example.com">Email Me</a>
+          <a class="button secondary" href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/YOURLINKEDIN" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-row">
+      <p>© 2026 Hunter Hagedorn</p>
+      <p>Built with simple HTML + CSS and hosted on Cloudflare Pages.</p>
+    </div>
+  </footer>
 </body>
 </html>
